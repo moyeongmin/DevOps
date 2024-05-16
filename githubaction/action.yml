@@ -1,6 +1,12 @@
 name : Calc Action
+inputs:
+  x: 
+    default: 0
+  y: 
+    default: 0
 runs :
   using : "composite"
   steps : 
     - run : echo "Hello World" # hello World를 출력하겠다
       shell: bash
+    - run : echo "x= ${{inputs.x}} y = ${{inputs.y}}"

@@ -6,3 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: moyeongmin/DevOps/githubaction@main
+        with: 
+            x : 21
+            y : 11
