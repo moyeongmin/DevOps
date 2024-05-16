@@ -9,5 +9,7 @@ runs :
   steps : 
     - run : echo "Hello World" # hello World를 출력하겠다
       shell: bash
-    - run : echo "x= ${{inputs.x}} y = ${{inputs.y}}" x+y
+    - run : echo "x= ${{inputs.x}} y = ${{inputs.y}}"
+      shell: bash
+    - run : echo "result = $((${{inputs.x}} - ${{ inputs.y }}))" >> $GITHUB_OUTPUT
       shell: bash
