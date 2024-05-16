@@ -5,4 +5,4 @@ jobs:
   calculate:
     runs-on: ubuntu-latest
     steps:
-      - uses: moyeongmin/calc-action@main
+      - uses: moyeongmin/action@main
