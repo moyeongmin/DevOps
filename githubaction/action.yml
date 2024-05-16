@@ -9,4 +9,5 @@ runs :
   steps : 
     - run : echo "Hello World" # hello World를 출력하겠다
       shell: bash
-    - run : echo "x= ${{inputs.x}} y = ${{inputs.y}}"
+    - run : echo "x= ${{inputs.x}} y = ${{inputs.y}}" x+y
+      shell: bash
