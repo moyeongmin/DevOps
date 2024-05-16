@@ -5,4 +5,4 @@ jobs:
   calculate:
     runs-on: ubuntu-latest
     steps:
-      - uses: moyeongmin/action@main
+      - uses: moyeongmin/GitAction_Codlab@main
